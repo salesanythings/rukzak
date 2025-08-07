@@ -1,0 +1,100 @@
+.m1-form select {
+    width: 100%;
+    display: block;
+    font-family: 'Gotham Pro', sans-serif;
+    border: #ececec 1px solid;
+    font-size: 18px;
+    margin-bottom: 20px;
+    height: 68px;
+    border-radius: 6px;
+    background: #fff;
+    text-indent: 65px;
+    color: #727272;
+}
+
+  .swiper {
+    width: auto;
+    height: auto;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    color: #fdda13;
+}
+.swiper-pagination-bullet-active {
+    background: #fdda13;
+}
+
+    .reviews_section {
+    background: linear-gradient(342deg, rgb(26 78 14) 0%, rgb(109 167 69) 35%, rgb(41 93 9) 100%);
+}
+.offer_section .products_count>span {
+    background: linear-gradient(186deg, rgb(26 78 14) 0%, rgb(109 167 69) 35%, rgb(41 93 9) 100%);
+}
+.benefits_list {
+  padding: 12px 0 12px 18px;
+  background: linear-gradient(300deg, rgb(26 78 14) 0%, rgb(109 167 69) 35%, rgb(41 93 9) 100%);
+  color: #fff;
+}
+
+.benefits_list .benefit_item {
+  float: left;
+  padding: 0 0 0 44px;
+  width: 160px;
+  font-size: 13px;
+  line-height: 16px;
+  position: relative;
+}
+
+.benefits_list .benefit_item:last-child {
+  width: 130px;
+}
+
+.benefits_list .benefit_item:before {
+  display: block;
+  content: "";
+  width: 34px;
+  height: 34px;
+  /* border: 1px solid rgba(255, 255, 255, 0.2); */
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: white center no-repeat;
+  position: absolute;
+  top: -2px;
+  left: 0;
+}
+
+.benefits_list .benefit_item:nth-child(1):before {
+  background-image: url("https://grass.artemgoj.store/images/offer_benefit1.svg");
+}
+
+.benefits_list .benefit_item:nth-child(2):before {
+  background-image: url("https://grass.artemgoj.store/images/offer_benefit2.svg");
+}
+
+.benefits_list .benefit_item:nth-child(3):before {
+  background-image: url("https://grass.artemgoj.store/images/offer_benefit2.svg");
+}
+        .number-discount {
+        background: #fff;
+        padding: 20px 0;
+        text-align: center;
+        border: 3px solid #f02119;
+        }
+        .number-discount .block-title {
+        color: #f02119;
+        }
+        ul[role='list'], ol[role='list'] {
+        list-style: none;
+        }
+        .discount-list {
+            margin: 10px 0 0 20px;
+            padding: 0;
+            font-size: 22px;
+        }
+        .discount-list li {
+            padding: 10px 20px;
+            font-weight: 200;
+        }
+        .discount-list strong {
+            font-weight: 700;
+        }
